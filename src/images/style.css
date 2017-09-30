@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(./images/background.png) repeat;
+  background: #F0EFE2 url(background.png) repeat;
   color: #777;}
 
 p
@@ -125,7 +125,7 @@ ol li
 { width: 900px;
   height: 72px;
   padding: 0;
-  background: transparent url(./images/transparent.png) repeat;} 
+  background: transparent url(transparent.png) repeat;} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -157,7 +157,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
-  background: transparent url(./images/transparent_light.png) repeat;} 
+  background: transparent url(transparent_light.png) repeat;} 
 
 .sidebar
 { float: right;
@@ -176,7 +176,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 40px;
   display: block;
-  background: transparent url(./images/link.png) no-repeat left center;} 
+  background: transparent url(link.png) no-repeat left center;} 
 
 .sidebar li a.selected
 { color: #444;
@@ -192,7 +192,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content ul li
 { list-style-type: none;
-  background: url(./images/bullet.png) no-repeat;
+  background: url(bullet.png) no-repeat;
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
@@ -203,7 +203,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
-  background: transparent url(./images/transparent.png) repeat;
+  background: transparent url(transparent.png) repeat;
   color: #FFF;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
@@ -292,5 +292,3 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
-
-  *{ Box-sizing: content-box } 
