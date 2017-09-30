@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { Page1Component } from './page1/page1.component';
 import { PageNotFoundComponent } from './others/page-not-found/page-not-found.component';
 import { LoginComponent } from './login/login.component';
+import { Page2Component } from './page2/page2.component';
 
 
 
@@ -17,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     Page1Component,
     PageNotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    Page2Component
   ],
   imports: [
     BrowserModule,

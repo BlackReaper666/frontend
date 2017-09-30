@@ -10,10 +10,12 @@
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected">
-              <a routerLink="page1">Page1</a>  
-           </li>>
-          <li><a href="examples.html">Examples</a></li>
+          <li [ngClass]="{'selected': pageSelected === 'page1'}">
+              <a routerLink="page1" (click)="selectedPage('page1')">Page1</a>  
+           </li>
+           <li [ngClass]="{'selected': pageSelected === 'page2'}">
+              <a routerLink="page2" (click)="selectedPage('page2')">Page2</a>  
+           </li>
           <li><a href="page.html">A Page</a></li>
           <li><a href="another_page.html">Another Page</a></li>
           <li><a href="contact.html">Contact Us</a></li>
