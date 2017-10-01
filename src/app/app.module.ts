@@ -6,10 +6,10 @@ import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 import { routes } from './app.router'
 import { AppComponent } from './app.component';
-import { Page1Component } from './page1/page1.component';
-import { PageNotFoundComponent } from './others/page-not-found/page-not-found.component';
-import { LoginComponent } from './login/login.component';
-import { Page2Component } from './page2/page2.component';
+import { Page1Component } from './pages/page1/page1.component';
+import { PageNotFoundComponent } from './pages/others/page-not-found/page-not-found.component';
+import { LoginComponent } from './pages/login/login.component';
+import { Page2Component } from './pages/page2/page2.component';
 
 
 

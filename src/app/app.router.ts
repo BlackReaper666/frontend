@@ -1,8 +1,8 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { Page1Component } from './page1/page1.component';
-import { Page2Component } from './page2/page2.component';
-import { PageNotFoundComponent } from './others/page-not-found/page-not-found.component';
+import { Page1Component } from './pages/page1/page1.component';
+import { Page2Component } from './pages/page2/page2.component';
+import { PageNotFoundComponent } from './pages/others/page-not-found/page-not-found.component';
 
 export const router: Routes = [
   {path: '', redirectTo: 'page1', pathMatch: 'full'},
